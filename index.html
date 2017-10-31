@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body>
+		<!--顶部导航-->
+		<div class="nav-toggle">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<!--大屏样式-->
+						<div class="widescreen">
+							<a href="javascript:;">
+								<img src="img/logo-wordmark.svg" class="logo" />
+							</a>
+							<ul class="left-links main-nav">
+								<li class="nav-item">
+									<a href="javascript:;">Product</a>
+								</li>
+								<li class="nav-item">
+									<a href="javascript:;">Pricing</a>
+								</li>
+								<li class="nav-item">
+									<a href="javascript:;">Enterprise</a>
+								</li>
+								<li class="nav-item">
+									<a href="javascript:;">Developers</a>
+								</li>
+								<li class="nav-item">
+									<a href="javascript:;">Company</a>
+								</li>
+							</ul>
+							<ul class="right-links main-nav">
+								<li class="default-item nav-item">Support
+									<div class="submenu">
+										<ul class="subnav">
+											<li class="subnav-item">
+												<a href="javascript:;" target="_blank">Get Support</a>
+											</li>
+											<li class="subnav-item">
+												<a href="javascript:;" target="_blank">Community Forum</a>
+											</li>
+											<li class="subnav-item">
+												<a href="javascript:;">Premium Support</a>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="divider-left nav-item visitor-item">
+									<a href="javascript:;" data-hj-masked="">Log In</a>
+								</li>
+								<li class="nav-item visitor-item">
+									<a class="btn-primary small" href="javascript:;" data-analytics-action="signup-clicked" data-analytics-location="nav" data-optimizely="signup_button_clicked">Sign Up</a>
+								</li>
+							</ul>
+						</div>
+
+						<!--缩小到小于992px的样式-->
+						<div class="narrowscreen">
+
+							<button type="button" id="showmenu2" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+							<a href="javascript:;"><img class="logo" src="img/logo-wordmark.svg" alt="CircleCI Home"></a>
+
+							<span class="login">
+            <a href="javascript:;" data-hj-masked="" class="mobile-nav signup visitor-item" data-analytics-location="nav">Log In</a>
+            <a href="javascript:;" class="dashboard-link mobile-nav">Go to app</a>
+          </span>
+
+							<ul class="dropdown-menu2" id="mobile-navigation">
+								<li>
+									<a href="javascript:;" data-analytics-action="signup-clicked" data-optimizely="signup_button_clicked" class="btn-primary">Sign Up for Free</a>
+								</li>
+								<li class="arrow collapsed border-bottom"><i class="fa fa-angle-right" aria-hidden="true"></i>Features
+									<ul class="subnav">
+										<li class="subnav-item">
+											<a href="javascript:;">Overview</a>
+										</li>
+										<li class="subnav-item">
+											<a href="javascript:;">Integrations</a>
+										</li>
+										<li class="subnav-item">
+											<a href="javascript:;">Mobile</a>
+										</li>
+									</ul>
+								</li>
+								<li class="border-bottom">
+									<a href="javascript:;">Pricing</a>
+								</li>
+								<li class="border-bottom">
+									<a href="javascript:;">Enterprise</a>
+								</li>
+								<li class="arrow collapsed border-bottom"><i class="fa fa-angle-right" aria-hidden="true"></i>Developers
+									<ul class="subnav">
+										<li class="subnav-item">
+											<a href="javascript:;">Hello World</a>
+										</li>
+										<li class="subnav-item">
+											<a href="javascript:;">Documentation</a>
+										</li>
+										<li class="subnav-item">
+											<a href="javascript:;">Integrations</a>
+										</li>
+										<li class="subnav-item">
+											<a href="javascript:;">API</a>
+										</li>
+									</ul>
+								</li>
+								<li class="arrow collapsed border-bottom">
+									<i class="fa fa-angle-right"></i>Company
+									<ul class="subnav">
+										<li class="subnav-item">
+											<a href="javascript:;">About CircleCI</a>
+										</li>
+										<li class="subnav-item">
+											<a href="javascript:;">Team</a>
+										</li>
+										<li class="subnav-item">
+											<a href="javascript:;">Jobs</a>
+										</li>
+										<li class="subnav-item">
+											<a href="javascript:;">Contact Us</a>
+										</li>
+										<li class="subnav-item">
+											<a href="javascript:;">Partner with Us</a>
+										</li>
+										<li class="subnav-item">
+											<a href="javascript:;">Blog</a>
+										</li>
+										<li class="subnav-item">
+											<a href="javascript:;">Newsroom</a>
+										</li>
+									</ul>
+								</li>
+								<li class="arrow collapsed"><i class="fa fa-angle-right" aria-hidden="true"></i>Support
+									<ul class="subnav">
+										<li class="subnav-item">
+											<a href="javascript:;" target="_blank">Get Support</a>
+										</li>
+										<li class="subnav-item">
+											<a href="javascript:;" target="_blank">Community Forum</a>
+										</li>
+										<li class="subnav-item">
+											<a href="javascript:;">Premium Support</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main>
+			<!--Banner-->
+			<div class="banner  bg-bannerwave removable">
+				<div class="close"><img src="img/ic-close.svg" /></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+							<h2 class="h2">Forrester Names CircleCI Leader</h2>
+							<p>
+								See why CircleCI debuts as a Leader in CI.
+							</p>
+						</div>
+						<div class="col-md-3">
+							<div class="btn">
+								<a href="JavaScript:;" class="btn-secondary"> Download Report</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--hero-->
+			<div class="hero">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-md-10 col-md-offset-1">
+							<h1>How Leading Engineering Organizations Deliver Value, Faster</h1>
+							<div class="row">
+								<div class="col-sm-2 col-sm-offset-5 col-xs-10 col-xs-offset-1">
+									<hr class="blue-highlight" />
+								</div>
+							</div>
+							<p class="large">
+								Automate the software development process using continuous integration and continuous delivery so you can focus on what matters—building great things—not waiting for great things to build.
+							</p>
+							<div class="btn-pair">
+								<div class="row">
+									<div class="col-md-12">
+										<a class="btn-primary" href="javascript:;">Start Building for Free</a>
+										<a class="btn btn-secondary" href="javascript:;">Explore the Docs</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bright">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<hr class="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="logos-external">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="logos-container">
+								<img src="img/logo-facebook.svg" />
+								<img src="img/logo-slogo-egment.svg" />
+								<img src="img/logo-kiclogo-kstarter.svg" />
+								<img src="img/logo-ercolate.svg" />
+								<img src="img/logo-spotify.svg" />
+								<img src="img/logo-gopro.svg" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bright">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<hr class="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--two-col-->
+			<div class="two-col">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<img src="img/illu_enterprise.png" />
+						</div>
+						<div class="col-sm-6">
+							<h2>Start-Up Innovation, Enterprise Scale</h2>
+							<p class="large">
+
+								Running CI/CD behind your firewall has never been easier. Increase developer productivity, deliver quality code, and reduce operational overhead, all while offering the security you need at scale.
+
+							</p>
+							<div class="btn-primary">Learn More</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--zebra-->
+			<div class="zebra">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="quote-container">
+								<div class=" col-md-4  text-center">
+									<div class="quote-image-mask-logo">
+										<img src="img/fanatics.svg" />
+									</div>
+									<p class="large">
+										<strong>Johnny Sheeley</strong>
+										<br /> Senior Engineering Manager at
+										<br /> Fanatics
+									</p>
+								</div>
+								<div class="col-md-8 ">
+									<blockquote>“CircleCI tripled our team’s efficiency. With CircleCI, people can try different languages, work on someone else’s code, set as many builds as you need for yourself, and so much more. CircleCI makes our team way happier about what they are building.”</blockquote>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--logos-->
+			<div class="logos">
+				<div class="container text-center">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+							<h2>Powering Your Favorites</h2>
+							<p class="large">
+
+								From e-Commerce, travel, and social media, to consumer brands and business services, we support the development of the most utilized mobile apps around the globe.
+
+							</p>
+						</div>
+					</div>
+					<div class="row ">
+						<div class="col-xs-12">
+							<div class="logos-container">
+								<img src="img/gopro.svg">
+								<img src="img/docker.svg">
+								<img src="img/heroku.svg">
+								<img src="img/sony.png">
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="logos-container">
+								<img src="img/dollar.svg">
+								<img src="img/instacart.svg">
+								<img src="img/blue-apron.png">
+								<img src="img/coinbase.svg">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="noncustomers-only">
+				<div class="banner">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9">
+								<h1>
+									Ship Quality Code, Faster.
+								</h1>
+								<div class="row">
+									<div class="col-sm-2 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+										<hr class="blue-highlight">
+									</div>
+								</div>
+								<p class="large">
+									Better software deserves better tools.
+								</p>
+							</div>
+							<div class="col-md-3">
+								<a class="btn-primary" href="javascript:;"> Sign Up for Free</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<p>Over
+							<strong>100,000</strong> companies and developers trust CircleCI.
+						</p>
+						<span>CircleCI’s continuous integration and delivery platform helps software teams rapidly release code with confidence by automating the build, test, and deploy process. CircleCI offers a modern software development platform that lets teams ramp up quickly, scale easily, and build confidently every day.</span>
+						<div class="row social-container">
+							<div class="col-xs-9 social-btns">
+								<a class="first" href="javascript:;"><img src="img/rss.png" /></a>
+								<a href="javascript:;"><img src="img/facebook .png" /></a>
+								<a href="javascript:;"><img src="img/tw.png" /></a>
+								<a href="javascript:;"><img src="img/Git.png" /></a>
+								<a href="javascript:;"><img src="img/in.png" /></a>
+							</div>
+							<div class="col-xs-9 text-right">
+								<a href="javascript:;" class="hiring">We're hiring!</a>
+							</div>
+						</div>
+					</div>
+					<nav>
+						<div class="col-md-2 col-md-offset-1">
+							<h6>CircleCI</h6>
+							<ul class="list-unstyled">
+								<li>
+									<a href="javascript:;">About Us</a>
+								</li>
+								<li>
+									<a href="javascript:;">Team</a>
+								</li>
+								<li>
+									<a href="javascript:;">Newsroom</a>
+								</li>
+								<li>
+									<a href="javascript:;">Jobs</a>
+								</li>
+								<li>
+									<a href="javascript:;">Blog</a>
+								</li>
+								<li>
+									<a href="javascript:;">Partners</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-2">
+							<h6>Product</h6>
+							<ul class="list-unstyled">
+								<li>
+									<a href="javascript:;">Features</a>
+								</li>
+								<li>
+									<a href="javascript:;">Mobile</a>
+								</li>
+								<li>
+									<a href="javascript:;">Enterprise</a>
+								</li>
+								<li>
+									<a href="javascript:;">Pricing</a>
+								</li>
+								<li>
+									<a href="javascript:;">Customers</a>
+								</li>
+								<li>
+									<a href="javascript:;">Changelog</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-2">
+							<h6>Support</h6>
+							<ul class="list-unstyled">
+								<li>
+									<a href="javascript:;">Documentation</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">Get Support</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">Community</a>
+								</li>
+								<li>
+									<a href="javascript:;">Premium Support</a>
+								</li>
+								<li>
+									<a href="javascript:;">Security</a>
+								</li>
+								<li>
+									<a href="javascript:;">Privacy Policy</a>
+								</li>
+								<li>
+									<a href="javascript:;">Terms of Service</a>
+								</li>
+								<li>
+									<a href="javascript:;">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="row">
+					<div class="col-md-5 additional-links">
+						<span>Copyright © 2017 CircleCI</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$("#showmenu2").click(function() {
+
+				$("#mobile-navigation").toggle(
+					function() {
+						$("#showmenu2").attr("aria-expanded", "ture");
+					},
+					function() {
+						$("#showmenu2").attr("aria-expanded", "flase");
+					}
+				);
+				$(".icon-bar").eq(0).toggleClass("top-bar");
+				$(".icon-bar").eq(1).toggleClass("middle-bar");
+				$(".icon-bar").eq(2).toggleClass("bottom-bar");
+				$(".sub-nav").toggle();
+			})
+
+			$(".arrow").click(function() {
+				$(this).children(".fa-angle-right").toggleClass("arrowtop").siblings(".subnav").toggle()
+			})
+		</script>
+	</body>
+
+</html>
